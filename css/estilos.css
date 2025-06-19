@@ -1,0 +1,165 @@
+/* estilos.css - Dulce Sabor: Estilo personalizado por estudiante emprendedora */
+
+body {
+    background-color: #fff8f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #4b2e2e;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+header, footer {
+    background-color: #f4d3c2;
+    padding: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #c94c4c;
+    font-family: 'Georgia', serif;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b2e2e;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #c94c4c;
+}
+
+section {
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 1em;
+    border-left: 6px solid #f4d3c2;
+    border-radius: 6px;
+}
+
+footer p {
+    font-size: 0.9em;
+    color: #6d4c41;
+}
+
+/* Estilo para tienda */
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.producto {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #f4d3c2;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+}
+
+.producto img {
+    max-width: 100%;
+    border-radius: 6px;
+}
+
+/* Formulario contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, form select, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #e0c5b6;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #c94c4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #a63b3b;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .producto {
+        width: 100%;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5em;
+    }
+}
+.descripcion {
+    font-size: 0.95em;
+    color: #5e4035;
+    margin: 0.5em 0;
+  }
+  
+  .producto button {
+    background-color: #c94c4c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .producto button:hover {
+    background-color: #a63b3b;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1em;
+  }
+  
+  form input, form select, form textarea, form button {
+    padding: 10px;
+    border: 1px solid #e0c5b6;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  form button {
+    background-color: #c94c4c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #a63b3b;
+  }
+  

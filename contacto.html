@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contacto – Dulce Sabor</title>
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Dulce Sabor</h1>
+        <nav>
+          <a href="index.html">Inicio</a>
+          <a href="tienda.html">Tienda</a>
+          <a href="contacto.html">Contacto</a>
+        </nav>
+      </header>
+
+      <main>
+        <h2>Contáctanos</h2>
+        <p>¿Tienes un pedido especial, una duda o sugerencia? ¡Escríbenos!</p>
+
+        <form action="#" method="post">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email" placeholder="tucorreo@email.com" required>
+
+          <label for="tipo">Tipo de pastel:</label>
+          <select id="tipo" name="tipo">
+            <option value="chocolate">Pastel de Chocolate</option>
+            <option value="fresa">Pastel de Fresa</option>
+            <option value="vainilla">Pastel de Vainilla</option>
+            <option value="frutas">Pastel de Frutas</option>
+            <option value="redvelvet">Red Velvet</option>
+            <option value="zanahoria">Pastel de Zanahoria</option>
+          </select>
+
+          <label for="comentarios">Comentarios:</label>
+          <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe aquí tu mensaje..."></textarea>
+
+          <label>
+            <input type="checkbox" name="terminos" required>
+            Acepto los términos y condiciones
+          </label>
+
+          <button type="submit">Enviar mensaje</button>
+        </form>
+      </main>
+
+      <footer>
+        <p>Visítanos y endulza tu día 🍰 © 2025 Dulce Sabor</p>
+      </footer>
+    </div>
+  </body>
+</html>
