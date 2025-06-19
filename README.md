@@ -75,7 +75,7 @@
 
 El proyecto ya se encuentra desplegado y disponible para pruebas en vivo:
 
-[![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)]([https://dulce-sabor.onrender.com](https://dulce-sabor.onrender.com))
+[![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)](https://dulce-sabor.onrender.com)
 
 ### Características del despliegue:
 - ✅ Disponible 24/7
