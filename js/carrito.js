@@ -15,7 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
       const nombre = producto.querySelector('h3').textContent;
       const precio = parseFloat(producto.querySelector('.precio').textContent.replace('$', ''));
 
-      carrito.push({ nombre, precio });
+      const existente = carrito.find(item => item.nombre === nombre);
+      if (existente) {
+        existente.cantidad++;
+      } else {
+        carrito.push({ nombre, precio, cantidad: 1 });
+      }
+
       actualizarCarrito();
     });
   });
@@ -35,11 +41,24 @@ document.addEventListener('DOMContentLoaded', () => {
     listaCarrito.innerHTML = '';
     let subtotal = 0;
 
-    carrito.forEach(item => {
-      subtotal += item.precio;
+    carrito.forEach((item, index) => {
+      subtotal += item.precio * item.cantidad;
+
       const li = document.createElement('li');
-      li.textContent = `${item.nombre} - $${item.precio.toFixed(2)}`;
+      li.innerHTML = `
+        ${item.nombre} x${item.cantidad} - $${(item.precio * item.cantidad).toFixed(2)}
+        <button class="eliminar" data-index="${index}" style="margin-left: 10px; cursor: pointer;">🗑️</button>
+      `;
       listaCarrito.appendChild(li);
+    });
+
+    // Asignar eventos a los botones de eliminar
+    document.querySelectorAll('.eliminar').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const index = parseInt(btn.getAttribute('data-index'));
+        carrito.splice(index, 1);
+        actualizarCarrito();
+      });
     });
 
     const iva = subtotal * ivaPorcentaje;
