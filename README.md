@@ -24,6 +24,7 @@
 
 ## 📁 Estructura del proyecto
 
+```markdown
 📦 dulce-sabor/
 ├── 📄 index.html
 ├── 📄 contacto.html
@@ -34,7 +35,10 @@
 ├── 📂 js/
 │ ├── 📄 carrito.js
 │ └── 📄 contacto.js
+└── 📂 assets/
 ├── 📂 img/
+└── 📂 logo/
+```
 
 ---
 
@@ -62,6 +66,8 @@
 ![Captura de pantalla 2025-06-19 113634](https://github.com/user-attachments/assets/f3cfd064-cd6f-4473-9957-e1ec217d5e95)
 ![Captura de pantalla 2025-06-19 115527](https://github.com/user-attachments/assets/0507568b-4bb4-4bab-9c6c-a077965a0d50)
 ![Captura de pantalla 2025-06-19 115700](https://github.com/user-attachments/assets/9b7f043d-ccbb-4c9b-91f5-ef7af9f2490b)
+![Captura de pantalla 2025-06-19 115806](https://github.com/user-attachments/assets/70b1dc4b-f164-415d-a910-2c30a6554760)
+![Captura de pantalla 2025-06-19 115817](https://github.com/user-attachments/assets/f50a25b0-8928-4ea8-8c46-ac5a017de7e0)
 
 ---
 
