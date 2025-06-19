@@ -29,15 +29,12 @@
 ├── 📄 index.html
 ├── 📄 contacto.html
 ├── 📄 tienda.html
-├── 📄 colaboradores.html
 ├── 📂 css/
 │ └── 📄 estilos.css
 ├── 📂 js/
 │ ├── 📄 carrito.js
 │ └── 📄 contacto.js
-└── 📂 assets/
 ├── 📂 img/
-└── 📂 logo/
 ```
 
 ---
