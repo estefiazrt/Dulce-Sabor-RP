@@ -24,19 +24,17 @@
 
 ## 📁 Estructura del proyecto
 
-dulce-sabor/
-├── index.html
-├── contacto.html
-├── tienda.html
-├── colaboradores.html
-├── css/
-│ └── estilos.css
-├── js/
-│ ├── carrito.js
-│ └── contacto.js
-└── assets/
-├── img/
-└── logo/
+📦 dulce-sabor/
+├── 📄 index.html
+├── 📄 contacto.html
+├── 📄 tienda.html
+├── 📄 colaboradores.html
+├── 📂 css/
+│ └── 📄 estilos.css
+├── 📂 js/
+│ ├── 📄 carrito.js
+│ └── 📄 contacto.js
+├── 📂 img/
 
 ---
 
@@ -63,6 +61,7 @@ dulce-sabor/
 
 ![Captura de pantalla 2025-06-19 113634](https://github.com/user-attachments/assets/f3cfd064-cd6f-4473-9957-e1ec217d5e95)
 ![Captura de pantalla 2025-06-19 115527](https://github.com/user-attachments/assets/0507568b-4bb4-4bab-9c6c-a077965a0d50)
+![Captura de pantalla 2025-06-19 115700](https://github.com/user-attachments/assets/9b7f043d-ccbb-4c9b-91f5-ef7af9f2490b)
 
 ---
 
