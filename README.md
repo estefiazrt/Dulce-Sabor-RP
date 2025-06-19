@@ -41,10 +41,11 @@ dulce-sabor/
 ---
 
 ## 🤝 Colaboradores
-- [@Melanie Murillo]((https://github.com/estefiazrt))
-- [@Alejandra Moreno]((https://github.com/Aleja82))
-- [@Angel Ramirez]((https://github.com/Mangel21R))
-- [@Juan Pablo Mayor]((https://github.com/TheJpIntHecOde))
+
+- [@Melanie Murillo](https://github.com/estefiazrt)
+- [@Alejandra Moreno](https://github.com/Aleja82)
+- [@Angel Ramirez](https://github.com/Mangel21R)
+- [@Juan Pablo Mayorga](https://github.com/TheJpIntHecOde)
 
 ---
 
@@ -61,6 +62,7 @@ dulce-sabor/
 ## 📸 Capturas de pantalla
 
 ![Captura de pantalla 2025-06-19 113634](https://github.com/user-attachments/assets/f3cfd064-cd6f-4473-9957-e1ec217d5e95)
+![Captura de pantalla 2025-06-19 115527](https://github.com/user-attachments/assets/0507568b-4bb4-4bab-9c6c-a077965a0d50)
 
 ---
 
